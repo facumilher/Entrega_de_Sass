@@ -1,0 +1,7 @@
+@import "base/variables.scss";
+
+footer{
+    display: flex;
+    justify-content: end;
+    background-color:$bg-color ;
+}

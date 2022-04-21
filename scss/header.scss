@@ -1,0 +1,21 @@
+@import "base/variables.scss";
+
+header{
+    background-color: $bg-color;
+    display: flex;
+    justify-content: center;
+    nav{
+        padding: $relleno;
+        ul{
+            li{
+                list-style: none;
+                a{
+                    &:hover{
+                        text-decoration: underline;
+
+                    }
+                }
+            }
+        }
+    }
+}
