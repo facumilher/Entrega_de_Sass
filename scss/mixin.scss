@@ -1,6 +1,8 @@
 @mixin centrado {
     display: flex;
     justify-content: center;
+    background-color: black;
+    color: aquamarine;
 }
 .magia{
     @include centrado
