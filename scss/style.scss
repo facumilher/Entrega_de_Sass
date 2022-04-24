@@ -2,7 +2,4 @@
 @import "base/variables.scss";
 @import "section";
 @import "footer";
-.centrado{
-    display: flex;
-    justify-content: center;
-}
+@import "mixin";

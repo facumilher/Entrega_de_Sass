@@ -1,0 +1,20 @@
+@mixin centrado {
+    display: flex;
+    justify-content: center;
+}
+.magia{
+    @include centrado
+}
+@mixin condition($color) {
+    background-color: $color;
+    @if $color==aquamarine {
+        border-radius: 10px;
+        border:solid 2px black;
+    }@else{
+        border-radius: 2px;
+        border:solid 2px salmon;
+    }
+}
+.probando{
+    @include condition(aquamarine)
+}

@@ -25,9 +25,15 @@ footer {
   background-color: aquamarine;
 }
 
-.centrado {
+.magia {
   display: flex;
   justify-content: center;
+}
+
+.probando {
+  background-color: aquamarine;
+  border-radius: 10px;
+  border: solid 2px black;
 }
 
 /*# sourceMappingURL=style.css.map */
